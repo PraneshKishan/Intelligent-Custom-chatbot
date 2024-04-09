@@ -1,0 +1,26 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hey","hi","good day","what's up","what's up bro","yo!"],
+    "responses": ["Hello!","Hi!","What can i help for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["see you later","Goodbye","I am leaving","have a good day","meet you soon","","bye"],
+    "responses": ["Okay! have a nice day","Good bye!","Talk to you later!"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name?","your name please?","who are you","what should i call you?","can you tell me your name","whats your name","your name?"],
+    "responses": ["You can call me chatbot","I am a chatbot","Myself chatbot"]
+    },
+    {"tag": "age",
+    "patterns": ["whats your age?","how old are you?","how old","age?","what is your age?"],
+    "responses": ["I dont have any specific age as i am a bot"]
+    },
+    {"tag": "programming",
+    "patterns": ["what programming languages do you know?","what is your favourite programming languages?","know any programming language?"],
+    "responses": ["Yeah! my favourite language is Python and Javascript","I like Python language","Python, Javascript etc"]
+    },
+    {"tag": "projects",
+    "patterns": ["Suggest me any project ideas","Tell me some projects to create","Suggest me some projects","Have any project idea?"],
+    "responses": ["Here are some ideas: Calculator, To-Do app, chatbot etc","You can create chatbots, Quiz app, Personal helper"]
+    }
+]}
