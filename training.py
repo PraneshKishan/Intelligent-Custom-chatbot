@@ -8,7 +8,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('D:\\MLprojects\\intelligent_chatbot\\intents.json').read())
+intents = json.loads(open('intents.json').read())
 
 words = []
 classes = []
